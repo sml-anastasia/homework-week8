@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/stylesYandex.css">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <title>ВИАРУШКА</title>
+</head>
+
+<body>
+    <!-- первая страница -->
+    <main id="main">
+        <!-- первый блок страницы - хедер -->
+        <header class="header">
+            <!-- элемент блока-хедер - лого -->
+            <img class="header__logo" src="assets/images/logo.svg" alt="логотип">
+            <!-- элемент блока-хедер - кнопка -->
+            <button class="header__button-busket">
+                <p class="button-busket__text">корзина</p>
+                <img class="button-busket__icon" src="assets/images/busket-icon.svg" alt="иконка корзинки">
+            </button>
+        </header>
+
+        <!-- второй блок страницы - секция -->
+        <section class="headline">
+
+            <!-- элемент секции; блок для заголовка, текста, кнопки -->
+            <div class="intro">
+                <h1 class="intro__title">Виртуальная реальность без проводов</h1>
+                <div class="intro__text">Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем
+                    без проводов и дорогих комьютеров.</div>
+                <button class="intro__button-buy">
+                    <p class="button-buy__text">КУПИТЬ</p>
+                    <img class="button-buy__icon" src="assets/images/card-icon.svg" alt="иконка карточки">
+                </button>
+            </div>
+
+            <!-- элемент секции; блок для картинки -->
+            <div class="headline__image">
+                <img src="assets/images/main-pic.svg" alt="парень с виарушкой">
+            </div>
+        </section>
+
+        <!-- третий блок страницы - навигацинное меню -->
+        <nav class="nav">
+            <a class="nav__item" href="#">Возможности</a>
+            <a class="nav__item" href="#">Где купить</a>
+            <a class="nav__item" href="#">Доставка</a>
+            <a class="nav__item" href="#">Помощь</a>
+        </nav>
+    </main>
+
+    <!-- вторая страница -->
+    <section id="second-section">
+        <!-- первый блок страницы - хедер -->
+        <header class="header">
+            <!-- элемент блока-хедер - лого -->
+            <img class="header__logo" src="assets/images/logo.svg" alt="логотип">
+            <!-- элемент блока-хедер - кнопка -->
+            <button class="header__button-busket">
+                <p class="button-busket__text">корзина</p>
+                <img class="button-busket__icon" src="assets/images/busket-icon.svg" alt="иконка корзинки">
+            </button>
+        </header>
+
+        <!-- второй блок страницы - блок с карточками -->
+        <div class="features">
+            <!-- заголовок -->
+            <h2 class="features__title">ВОЗМОЖНОСТИ</h2>
+            <!-- карточка-преимущество с фото -->
+            <div class="features__card features__card_photo">
+                <img class="card-photo__image" src="assets/images/scientist.svg" alt="ученый">
+                <h3 class="card-photo__title">БЕЗ ПРОВОДОВ</h3>
+                <p class="card-photo__text">Шлем работает без проводов: не нужно ни компьютера, ни внешнего
+                    питания.
+                </p>
+            </div>
+            <!-- карточка-преимущество с фото -->
+            <div class="features__card features__card_photo">
+                <img class="card-photo__image" src="assets/images/robot.svg" alt="робот">
+                <h3 class="card-photo__title">БЕЗ КОМПЬЮТЕРА</h3>
+                <p class="card-photo__text">Современным VR-шлемам, чтобы начать игру, требуется мощный
+                    компьютер.
+                    Наш шлем запускает её из облака. Насладитесь скоростью!
+                </p>
+            </div>
+            <!-- карточка-преимущество с фото -->
+            <div class="features__card features__card_photo">
+                <img class="card-photo__image" src="assets/images/laptop.svg" alt="парень с ноутбуком">
+                <h3 class="card-photo__title">ДО 10 ЧАСОВ РАБОТЫ</h3>
+                <p class="card-photo__text">Наш шлем производителен и компактен, а его ресурса хватит до 10
+                    часов
+                    работы даже, если вы запустите самые ресурсоёмкие игры.
+                </p>
+            </div>
+
+            <!-- карточка-преимущество без фото -->
+            <div class="features__card">
+                <h3 class="card__title">СОТНИ ИГР</h3>
+                <p class="card__text">Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до
+                    маленьких независимых проектов. Скоро их станет ещё больше.
+                </p>
+            </div>
+            <!-- карточка-преимущество без фото -->
+            <div class="features__card">
+                <h3 class="card__title">ПОЧТИ ДАРОМ</h3>
+                <p class="card__text">Наш VR-шлем намного дешевле любых аналогов и избавит от трат на мощный
+                    компьютер.
+                </p>
+            </div>
+            <!-- карточка для подписки -->
+            <div class="features__card features__card_subscribe">
+                <h3 class="subscribe__title">НОВОСТИ</h3>
+                <input class="subscribe__form" type="text" name="subcribe" value="Эл. почта">
+                <button class="subscribe__button">ПОДПИСАТЬСЯ</button>
+            </div>
+        </div>
+
+        <!-- третий блок страницы - навигацинное меню -->
+        <nav class="nav">
+            <a class="nav__item" href="#">Возможности</a>
+            <a class="nav__item" href="#">Где купить</a>
+            <a class="nav__item" href="#">Доставка</a>
+            <a class="nav__item" href="#">Помощь</a>
+        </nav>
+    </section>
+
+</body>
+
+</html>
